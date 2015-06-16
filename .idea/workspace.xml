@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Admin.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Admin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/admin/Admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="22" selection-start="1761" selection-end="1761" vertical-scroll-proportion="0.784153" vertical-offset="549" max-vertical-offset="1349">
+            <state line="31" column="34" selection-start="906" selection-end="906" vertical-scroll-proportion="-5.5" vertical-offset="435" max-vertical-offset="1349">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="Admin_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/Admin_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="5" selection-start="336" selection-end="336" vertical-scroll-proportion="-8.142858" vertical-offset="0" max-vertical-offset="361">
+            <state line="4" column="5" selection-start="83" selection-end="83" vertical-scroll-proportion="-2.7142856" vertical-offset="0" max-vertical-offset="361">
               <folding />
             </state>
           </provider>
@@ -53,16 +53,16 @@
       <file leaf-file-name="edit.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/templates/admin/admin/edit.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="54" selection-start="696" selection-end="696" vertical-scroll-proportion="-8.142858" vertical-offset="114" max-vertical-offset="551">
+            <state line="10" column="29" selection-start="397" selection-end="397" vertical-scroll-proportion="-2.7142856" vertical-offset="114" max-vertical-offset="551">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MY_Model.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MY_Model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="33" selection-start="2491" selection-end="2491" vertical-scroll-proportion="-4.25" vertical-offset="1344" max-vertical-offset="2242">
+            <state line="7" column="0" selection-start="129" selection-end="129" vertical-scroll-proportion="0.36338797" vertical-offset="0" max-vertical-offset="1083">
               <folding />
             </state>
           </provider>
@@ -120,7 +120,6 @@
         <option value="$PROJECT_DIR$/application/config/constants.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/application/views/templates/public/alert.tpl" />
-        <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
         <option value="$PROJECT_DIR$/application/views/templates/admin/public/footer.tpl" />
         <option value="$PROJECT_DIR$/application/views/templates/admin/admin/index.tpl" />
         <option value="$PROJECT_DIR$/application/core/MY_Controller.php" />
@@ -129,6 +128,7 @@
         <option value="$PROJECT_DIR$/application/views/templates/public/header.tpl" />
         <option value="$PROJECT_DIR$/application/libraries/Smarty.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin/Admin.php" />
+        <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
       </list>
     </option>
   </component>
@@ -817,20 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/templates/admin/admin/edit.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="54" selection-start="696" selection-end="696" vertical-scroll-proportion="-8.142858" vertical-offset="114" max-vertical-offset="551">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/Admin_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="336" selection-end="336" vertical-scroll-proportion="-8.142858" vertical-offset="0" max-vertical-offset="361">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/libraries/Smarty.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="69" selection-start="464" selection-end="464" vertical-scroll-proportion="0.6229508" vertical-offset="0" max-vertical-offset="456">
@@ -838,9 +824,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/Admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="33" selection-start="2491" selection-end="2491" vertical-scroll-proportion="-4.25" vertical-offset="1344" max-vertical-offset="2242">
+        <state line="31" column="34" selection-start="906" selection-end="906" vertical-scroll-proportion="-5.5" vertical-offset="435" max-vertical-offset="1349">
           <folding />
         </state>
       </provider>
@@ -852,9 +838,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/Admin.php">
+    <entry file="file://$PROJECT_DIR$/application/models/Admin_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="22" selection-start="1761" selection-end="1761" vertical-scroll-proportion="0.784153" vertical-offset="549" max-vertical-offset="1349">
+        <state line="4" column="5" selection-start="83" selection-end="83" vertical-scroll-proportion="-2.7142856" vertical-offset="0" max-vertical-offset="361">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/admin/admin/edit.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="29" selection-start="397" selection-end="397" vertical-scroll-proportion="-2.7142856" vertical-offset="114" max-vertical-offset="551">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="129" selection-end="129" vertical-scroll-proportion="0.36338797" vertical-offset="0" max-vertical-offset="1083">
           <folding />
         </state>
       </provider>
