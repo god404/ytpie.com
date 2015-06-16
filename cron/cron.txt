@@ -1,0 +1,158 @@
+2015-06-15 21:21:27 type: jp success: 0 is set: 309 fail: 0 
+2015-06-15 21:51:30 type: jky success: 0 is set: 311 fail: 0 
+2015-06-15 22:21:32 type: jp success: 339 is set: 0 fail: 0 
+2015-06-15 22:51:37 type: jky success: 0 is set: 311 fail: 0 
+2015-06-15 23:51:40 type: jky success: 0 is set: 311 fail: 0 
+2015-06-16 00:21:43 type: jp success: 0 is set: 339 fail: 0 
+2015-06-16 00:51:46 type: jky success: 0 is set: 305 fail: 0 
+2015-06-16 01:21:49 type: jp success: 0 is set: 339 fail: 0 
+2015-06-16 01:51:52 type: jky success: 0 is set: 305 fail: 0 
+2015-06-16 02:21:58 type: jp success: 0 is set: 339 fail: 0 
+2015-06-16 02:52:02 type: jky success: 0 is set: 305 fail: 0 
+2015-06-16 03:22:07 type: jp success: 0 is set: 339 fail: 0 
+2015-06-16 09:39:10 type: jky success: 267 is set: 0 fail: 0 
+2015-06-16 12:57:44 type: jp success: 0 is set: 342 fail: 0 
+2015-06-16 13:27:49 type: jky success: 49 is set: 268 fail: 0 
+2015-06-16 13:57:52 type: jp success: 0 is set: 342 fail: 0 
+2015-06-16 14:27:55 type: jky success: 0 is set: 317 fail: 0 
+2015-06-16 14:57:57 type: jp success: 0 is set: 342 fail: 0 
+2015-06-16 15:28:00 type: jky success: 0 is set: 317 fail: 0 
+2015-06-16 15:58:03 type: jp success: 0 is set: 341 fail: 0 
+2015-06-16 16:28:05 type: jky success: 0 is set: 317 fail: 0 
+2015-06-16 16:58:08 type: jp success: 0 is set: 341 fail: 0 
+2015-06-16 17:28:10 type: jky success: 0 is set: 317 fail: 0 
+2015-06-16 17:58:12 type: jp success: 0 is set: 340 fail: 0 
+2015-06-16 18:28:14 type: jky success: 0 is set: 317 fail: 0 
+2015-06-16 18:58:16 type: jp success: 0 is set: 340 fail: 0 
+2015-06-16 19:59:07 type: jky success: 0 is set: 317 fail: 0 
+2015-06-16 20:29:10 type: jp success: 0 is set: 340 fail: 0 
+2015-06-16 20:59:12 type: jky success: 0 is set: 317 fail: 0 
+2015-06-16 21:29:14 type: jp success: 0 is set: 340 fail: 0 
+2015-06-16 21:59:16 type: jky success: 0 is set: 317 fail: 0 
+2015-06-16 22:29:18 type: jp success: 308 is set: 0 fail: 0 
+2015-06-16 22:59:25 type: jky success: 0 is set: 317 fail: 0 
+2015-06-16 23:29:28 type: jp success: 0 is set: 308 fail: 0 
+2015-06-16 23:59:30 type: jky success: 0 is set: 317 fail: 0 
+2015-06-17 00:29:33 type: jp success: 0 is set: 308 fail: 0 
+CI_ModelCI_ModelCI_Model2015-06-17 00:59:35 type: jky success: 0 is set: 313 fail: 0 
+2015-06-17 01:29:38 type: jp success: 0 is set: 308 fail: 0 
+2015-06-17 01:59:41 type: jky success: 0 is set: 313 fail: 0 
+2015-06-17 02:29:43 type: jp success: 0 is set: 308 fail: 0 
+2015-06-17 02:59:45 type: jky success: 0 is set: 313 fail: 0 
+
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  stream_socket_client(): unable to connect to tcp://api.juanpi.com:80 (由于目标计算机积极拒绝，无法连接。
+)</p>
+<p>Filename: libraries/Snoopy.php</p>
+<p>Line Number: 875</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: E:\www\ytpie.com\application\libraries\Snoopy.php<br />
+			Line: 875<br />
+			Function: stream_socket_client			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: E:\www\ytpie.com\application\libraries\Snoopy.php<br />
+			Line: 147<br />
+			Function: _connect			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: E:\www\ytpie.com\application\controllers\Fetch.php<br />
+			Line: 20<br />
+			Function: fetch			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: E:\www\ytpie.com\index.php<br />
+			Line: 292<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>2015-06-17 03:29:47 type: jp success: 0 is set: 0 fail: 0 
+
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  stream_socket_client(): unable to connect to tcp://api.juanpi.com:80 (由于目标计算机积极拒绝，无法连接。
+)</p>
+<p>Filename: libraries/Snoopy.php</p>
+<p>Line Number: 875</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: E:\www\ytpie.com\application\libraries\Snoopy.php<br />
+			Line: 875<br />
+			Function: stream_socket_client			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: E:\www\ytpie.com\application\libraries\Snoopy.php<br />
+			Line: 147<br />
+			Function: _connect			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: E:\www\ytpie.com\application\controllers\Fetch.php<br />
+			Line: 20<br />
+			Function: fetch			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: E:\www\ytpie.com\index.php<br />
+			Line: 292<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>2015-06-17 03:59:49 type: jky success: 0 is set: 0 fail: 0 
+2015-06-17 04:29:51 type: jp success: 0 is set: 308 fail: 0 
