@@ -156,3 +156,4 @@ CI_ModelCI_ModelCI_Model2015-06-17 00:59:35 type: jky success: 0 is set: 313 fai
 
 </div>2015-06-17 03:59:49 type: jky success: 0 is set: 0 fail: 0 
 2015-06-17 04:29:51 type: jp success: 0 is set: 308 fail: 0 
+2015-06-17 04:59:53 type: jky success: 272 is set: 0 fail: 0 

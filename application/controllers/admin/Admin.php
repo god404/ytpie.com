@@ -37,8 +37,8 @@ class Admin extends MY_Controller {
         $this->form_validation->set_rules('email', 'Email', 'required');
         if($this->input->post('id')){
             if ($this->form_validation->run()){
-                $where = array("id" => $this->input->post('id'));
-                $data = array("email" => $this->input->post('email'), "password" => md5($this->input->post('password')));
+                $where = array('id' => $this->input->post('id'));
+                $data = array('username' => $this->input->post('username'), 'email' => $this->input->post('email'), 'password' => md5($this->input->post('password')));
                 if($this->admin_model->update($where, $data)){
                     $alert = array('level' => 'success', 'text' => $this->lang->line('opt_success'));
                 }else{
